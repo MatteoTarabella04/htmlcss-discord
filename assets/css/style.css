@@ -386,6 +386,12 @@ div[class^="col"] {
     font-weight: bold;
 }
 
+hr {
+    border: none;
+    height: 0.05rem;
+    background-color: #728adb;
+}
+
 #foot-bottom>.container {
     padding: 0.5rem;
     align-items: center;
@@ -402,6 +408,16 @@ div[class^="col"] {
 
 #foot-bottom {
     align-items: flex-end;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.reg-b {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #728adb;
+    color: white;
 }
 
 /* #endregion /Utilities */
