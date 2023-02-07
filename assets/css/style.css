@@ -363,6 +363,29 @@ div[class^="col"] {
     margin-left: 20px;
 }
 
+.foot-list {
+    list-style: none;
+    margin-top: 70px;
+}
+
+.foot-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-list li {
+    padding-top: 10px;
+}
+
+.foot-list li:hover {
+    text-decoration: underline;
+}
+
+.foot-list > .main {
+    color: #728adb;
+    font-weight: bold;
+}
+
 #foot-bottom>.container {
     padding: 0.5rem;
     align-items: center;
