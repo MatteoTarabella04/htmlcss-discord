@@ -1,0 +1,279 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /Reset */
+
+/* #region Debug */
+
+.debug #app-header {
+    height: 3rem;
+    background-color: cyan;
+}
+
+.debug .container {
+    border: 2px dashed black;
+}
+
+.debug #nav>.container {
+    height: 2rem;
+    background-color: orange;
+}
+
+.debug #sec-intro {
+    height: 400px;
+    background-color: blue;
+}
+
+.debug #sec-intro>.container {
+    height: 100%;
+    background-color: violet;
+}
+
+.debug #sec-1,
+#sec-3 {
+    height: 500px;
+    background-color: white;
+}
+
+.debug #sec-2 {
+    height: 500px;
+    background-color: lightgray;
+}
+
+.debug #sec-4 {
+    height: 800px;
+    background-color: lightgray;
+}
+
+.debug #foot-top {
+    height: 100%;
+}
+
+.debug .img {
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+}
+
+.debug .desc {
+    background-color: pink;
+}
+
+.debug #sec-4>.container {
+    background-color: green;
+}
+
+.debug #app-footer>#foot-top {
+    height: 550px;
+    background-color: black;
+}
+
+.debug #foot-top>.container {
+    height: 100%;
+    border: 2px dashed white;
+    background-color: salmon;
+}
+
+.debug section[id^="sec"]>.container {
+    height: 100%;
+}
+
+.debug div[class^="col"] {
+    border: 1px dashed white;
+    height: 100%;
+    background-color: lightseagreen;
+}
+
+.debug #app-footer>#foot-bottom {
+    height: 70px;
+    background-color: black;
+}
+
+.debug #foot-bottom>.container {
+    height: 80%;
+    border: 2px dashed white;
+    background-color: aquamarine;
+}
+
+/* #endregion /Debug */
+
+/* #region Utilities */
+html {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+#app-header {
+    background-color: #065ee8;
+}
+
+#nav {
+    padding: 0.5rem;
+}
+
+#nav>.container {
+    padding: 0.25rem;
+    align-items: center;
+}
+
+nav {
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.login-b {
+    border: none;
+    border-radius: 20px;
+    padding: 9px 20px;
+    font-size: 15px;
+}
+
+.login-b:hover {
+    color: #065ee8;
+}
+
+.logo {
+    width: 25%;
+}
+
+.navbar {
+    width: 50%;
+
+}
+
+.login {
+    width: 25%;
+    justify-content: flex-end;
+}
+
+#sec-intro {
+    background-image: url("/assets/img/jumbo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 518px;
+    padding: 2rem;
+}
+
+#sec-intro>.container {
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sec-intro h1 {
+    color: white;
+    margin-top: 5.5rem;
+    font-size: 3rem;
+}
+
+.intro {
+    font-size: large;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+}
+
+#sec-intro button {
+    width: 36%;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    border: none;
+    border-radius: 23px;
+}
+
+#sec-intro i {
+    padding: 0 0.5rem;
+}
+
+.download-b {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.download-b:hover {
+    color: #065ee8;
+}
+
+.open-b {
+    background-color: #23272a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.open-b:hover {
+    background-color: #303335;
+}
+
+#sec-1,
+#sec-2,
+#sec-3,
+#sec-4 {
+    padding: 2.5rem;
+}
+
+.container .img {
+    width: 60%;
+}
+
+.container .desc {
+    width: 40%;
+}
+
+#foot-top {
+    padding: 0.5rem 0 2rem 0;
+}
+
+div[class^="col"] {
+    width: calc(100% / 4);
+}
+
+.social {
+    width: 40%;
+}
+
+#foot-bottom>.container {
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.foot-logo {
+    width: 50%;
+}
+
+.foot-button {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+#foot-bottom {
+    align-items: flex-end;
+}
+
+/* #endregion /Utilities */
