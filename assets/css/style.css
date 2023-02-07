@@ -315,8 +315,28 @@ button i {
     background-color: #8ea1e1;
 }
 
+#app-footer {
+    background-color: #23272a;
+}
+
 #foot-top {
     padding: 0.5rem 0 2rem 0;
+}
+
+#foot-top h2 {
+    color: #728adb;
+    padding: 30px 0;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.lang {
+    color: white;
+}
+
+.lang-b {
+    width: 20px;
+    margin-right: 5px;
 }
 
 div[class^="col"] {
@@ -325,6 +345,22 @@ div[class^="col"] {
 
 .social {
     width: 40%;
+}
+
+#icons {
+    margin: 15px 0;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+#icons i {
+    color: white;
+}
+
+#icons .fa-instagram, .fa-facebook-f, .fa-youtube {
+    margin-left: 20px;
 }
 
 #foot-bottom>.container {
