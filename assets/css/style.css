@@ -238,12 +238,22 @@ nav {
     padding: 2.5rem;
 }
 
-.container .img {
-    width: 70%;
+#sec-2, #sec-4 {
+    background-color: lightgray;
 }
 
-.container .desc {
-    width: 30%;
+.img {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.desc {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between ;
+    width: 40%;
 }
 
 .img img {
