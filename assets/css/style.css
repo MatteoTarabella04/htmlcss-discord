@@ -242,6 +242,17 @@ button i {
     background-color: lightgray;
 }
 
+.wave-top {
+    color: lightgrey;
+    margin-bottom: -10px;
+}
+
+.wave-bottom {
+    color: lightgrey;
+    margin-top: -10px;
+    rotate: 180deg;
+}
+
 .img {
     flex-wrap: wrap;
     align-content: flex-start;
